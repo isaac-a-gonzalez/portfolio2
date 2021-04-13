@@ -10,48 +10,48 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Isaac Gonzalez',
+  subtitle: 'Junior Web Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'headshot.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://igonzalezresume.netlify.app/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'pointb.png',
+    title: 'PointB Careers',
+    info: "In this project I was given the task of implementing design changes as a result of a brand refresh. The challenge was finding ways to make specific updates through CSS in conjunction with a content management system.",
+    info2: 'CSS, SmashFly CMS',
+    url: 'https://careers.pointb.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'roastio.png',
+    title: 'Roastio Coffee Shop',
+    info: "I love coffee and I am discovering a love for business. I used this project as way to practice setting up an e-commerce shop with product inventory and cart functionally.",
+    info2: 'Gatsby, REACT, Netlify, Contentful',
+    url: 'https://project-gatsbycoffee.netlify.app/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'bgsite.png',
+    title: 'Business Website',
+    info: "This is a sample site I made for a friend's business. I wanted their site to have a visual representation and connection to the business name. The template I used had some good bones and helped spark this draft.",
+    info2: 'HTML, CSS, Javascript',
+    url: 'https://bizsite.netlify.app/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'isaacgonzalezdev@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/isaac-a-gonzalez/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/isaac-a-gonzalez',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
