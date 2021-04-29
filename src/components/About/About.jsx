@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,15 +39,12 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    "I am a Junior Web Developer looking for professional full stack development opportunities to contribute my knowledge and skills, including certified training in full stack development and experience in Python, MEAN, and C#/ASP.NET Core."}
+                    'I am a Full Stack Developer seeking full time employment opportunities to contribute my knowledge and skills, including certified training in full stack development and experience in Python, MEAN, and C#/ASP.NET Core.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "Additionally, I come with a valuable background of education in linguistics and experience in customer service and community outreach, resulting in a unique understanding of the intersection between the complexities of programming languages and the importance of client-centered communication."}
+                    'Additionally, I come with a valuable background of education in linguistics and experience in customer service and community outreach, resulting in a unique understanding of the intersection between the complexities of programming languages and the importance of client-centered communication.'}
                 </p>
-                {/* <p className="about-wrapper__info-text">
-                  {paragraphThree || "Looking to get plugged in to a technology opportunity to bring innovation and progress to an ever-evolving digital landscape."}
-                </p> */}
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Isaac Gonzalez',
-  subtitle: 'Junior Web Developer',
+  subtitle: 'Full Stack Developer',
   cta: '',
 };
 
@@ -30,7 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'pointb.png',
     title: 'PointB Careers',
-    info: "In this project I was given the task of implementing design changes as a result of a brand refresh. The challenge was finding ways to make specific updates through CSS in conjunction with a content management system.",
+    info:
+      'In this project I was given the task of implementing design changes as a result of a brand refresh. The challenge was finding ways to make specific updates through CSS in conjunction with a content management system.',
     info2: 'CSS, SmashFly CMS',
     url: 'https://careers.pointb.com/',
     repo: '', // if no repo, the button will not show up
@@ -39,7 +40,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'roastio.png',
     title: 'Roastio Coffee Shop',
-    info: "I love coffee and I am discovering a love for business. I used this project as way to practice setting up an e-commerce shop with product inventory and cart functionally.",
+    info:
+      'I love coffee and I am discovering a love for business. I used this project as way to practice setting up an e-commerce shop with product inventory and cart functionally.',
     info2: 'Gatsby, REACT, Netlify, Contentful',
     url: 'https://project-gatsbycoffee.netlify.app/',
     repo: '', // if no repo, the button will not show up
@@ -48,7 +50,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'bgsite.png',
     title: 'Business Website',
-    info: "This is a sample site I made for a friend's business. I wanted their site to have a visual representation and connection to the business name. The template I used had some good bones and helped spark this draft.",
+    info:
+      "This is a sample site I made for a friend's business. I wanted their site to have a visual representation and connection to the business name. The template I used had some good bones and helped spark this draft.",
     info2: 'HTML, CSS, Javascript',
     url: 'https://bizsite.netlify.app/',
     repo: '', // if no repo, the button will not show up
