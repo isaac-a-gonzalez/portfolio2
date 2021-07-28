@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Isaac Gonzalez',
-  subtitle: 'Full Stack Developer',
+  subtitle: 'Front-End Developer',
   cta: '',
 };
 
@@ -26,6 +26,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'atphd.png',
+    title: 'AlexanderTanPhD.com',
+    info:
+      "For this private practice, the challenge was to build a highly-responsive site on both desktop and mobile within a window of a couple of weeks. This was acheived using Wix website builder. I also leveraged Wix's SEO features to increase the site's online presence along with Google Search Console.",
+    info2: 'Wix, Google Search Console',
+    url: 'https://www.alexandertanphd.com/',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'pointb.png',
