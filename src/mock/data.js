@@ -48,6 +48,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'guess_number.png',
+    title: 'Guess My Number',
+    info:
+      'This simple guessing game was a way for me to practice DOM manipulation using JavaScript, HTML, and CSS. It incorporates the use of JavaScript event listeners along with query selector functions to select certain class types in the HTML and store values like the high score using local storage. I followed along with "The Complete JavaScript Course 2021: From Zero to Expert!" created by Jonas Schmedtmann.',
+    info2: 'HTML, CSS, JavaScript',
+    url: 'https://dazzling-goldberg-c0aff5.netlify.app/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'roastio.png',
     title: 'Roastio Coffee Shop',
     info:
@@ -62,7 +72,7 @@ export const projectsData = [
     title: 'Business Website',
     info:
       "This is a sample site I made for a friend's business. I wanted their site to have a visual representation and connection to the business name. The template I used had some good bones and helped spark this draft.",
-    info2: 'HTML, CSS, Javascript',
+    info2: 'HTML, CSS, JavaScript',
     url: 'https://bizsite.netlify.app/',
     repo: '', // if no repo, the button will not show up
   },
