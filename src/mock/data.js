@@ -49,7 +49,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'guess_number.png',
-    title: 'Guess My Number',
+    title: 'Guess My Number (Desktop)',
     info:
       'This simple guessing game was a way for me to practice DOM manipulation using JavaScript, HTML, and CSS. It incorporates the use of JavaScript event listeners along with query selector functions to select certain class types in the HTML and store values like the high score using local storage. I followed along with "The Complete JavaScript Course 2021: From Zero to Expert!" created by Jonas Schmedtmann.',
     info2: 'HTML, CSS, JavaScript',
