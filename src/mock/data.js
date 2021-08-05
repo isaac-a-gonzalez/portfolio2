@@ -53,7 +53,7 @@ export const projectsData = [
     info:
       'This simple guessing game was a way for me to practice DOM manipulation using JavaScript, HTML, and CSS. It incorporates the use of JavaScript event listeners along with query selector functions to select certain class types in the HTML and store values like the high score using local storage. I followed along with "The Complete JavaScript Course 2021: From Zero to Expert!" created by Jonas Schmedtmann.',
     info2: 'HTML, CSS, JavaScript',
-    url: 'https://dazzling-goldberg-c0aff5.netlify.app/',
+    url: 'https://numberedguess.netlify.app/',
     repo: '', // if no repo, the button will not show up
   },
   {
