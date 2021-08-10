@@ -68,6 +68,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'js_modal.png',
+    title: 'JavaScript Modal/DOM Exercise',
+    info:
+      'I love coffee and I am discovering a love for business. I used this project as way to practice setting up an e-commerce shop with product inventory and cart functionally.',
+    info2: 'HTML, CSS, JavaScript',
+    url: 'https://js-modal-exercise.netlify.app/',
+    repo: 'https://github.com/isaac-a-gonzalez/js_modal_exercise', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'bgsite.png',
     title: 'Business Website',
     info:
