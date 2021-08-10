@@ -58,6 +58,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'js_modal.png',
+    title: 'JavaScript Modal/DOM Exercise',
+    info:
+      'Following the same course listed above, this exercise helped me understand the use of event listeners with not only click events but also key presses by writing a JavaScript function that would use the information stored in the event of a key press, return the specific key (in this case the "Escape" key), and use it to return the DOM to its orginal state.',
+    url: 'https://js-modal-exercise.netlify.app/',
+    repo: 'https://github.com/isaac-a-gonzalez/js_modal_exercise', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'roastio.png',
     title: 'Roastio Coffee Shop',
     info:
@@ -65,14 +74,6 @@ export const projectsData = [
     info2: 'Gatsby, REACT, Netlify, Contentful',
     url: 'https://project-gatsbycoffee.netlify.app/',
     repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'js_modal.png',
-    title: 'JavaScript Modal/DOM Exercise',
-    info: '',
-    url: 'https://js-modal-exercise.netlify.app/',
-    repo: 'https://github.com/isaac-a-gonzalez/js_modal_exercise', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
